@@ -3,9 +3,7 @@ import pyttsx3
 import pywhatkit
 import datetime
 import wikipedia
-import numpy
-import tkinter
-import matplotlib
+
 
 wikipedia.set_lang("de")
 listener = sr.Recognizer()
