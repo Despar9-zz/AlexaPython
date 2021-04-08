@@ -3,9 +3,9 @@ import pyttsx3
 import pywhatkit
 import datetime
 import wikipedia
+ 
 
-
-wikipedia.set_lang("de")
+wikipedia.set_lang("en")
 listener = sr.Recognizer()
 engine = pyttsx3.init()
 #voices = engine.getProperty('voices')
